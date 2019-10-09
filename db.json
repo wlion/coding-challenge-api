@@ -1,0 +1,83 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "This is a title",
+      "content": "Lorem ipsum",
+      "image": "http://via.placeholder.com/800x500",
+      "date": "Aug 11 2019",
+      "categories": [1, 5],
+      "comments": [1, 2, 3, 4],
+      "author": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Category 1"
+    },
+    {
+      "id": 2,
+      "name": "Category 1"
+    },
+    {
+      "id": 3,
+      "name": "Category 3"
+    },
+    {
+      "id": 4,
+      "name": "Category 4"
+    },
+    {
+      "id": 5,
+      "name": "Category 4"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title": "Comment 1",
+      "content": "Lorem ipsum",
+      "post_id": 1
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "title": "Comment 2",
+      "content": "Lorem ipsum",
+      "post_id": 1
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "title": "Comment 2",
+      "content": "Lorem ipsum",
+      "post_id": 1
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "title": "Comment 2",
+      "content": "Lorem ipsum",
+      "post_id": 1
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Author 1",
+      "avatar": "http://via.placeholder.com/100x100"
+    },
+    {
+      "id": 2,
+      "name": "Author 2",
+      "avatar": "http://via.placeholder.com/100x100"
+    },
+    {
+      "id": 3,
+      "name": "Author 3",
+      "avatar": "http://via.placeholder.com/100x100"
+    }
+  ]
+}
