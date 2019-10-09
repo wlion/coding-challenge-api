@@ -18,17 +18,16 @@
      - Categories (multi-select)
      - Author (select)
      - Date (hidden/disabled - auto-populate based on current date)
-   - Includes a "Create Post" button to toggle the view of the form
    - Upon submit, form should send a `POST` request to the server and update the view with the new post data on success.
-   - Form can simply display above list of posts.
+   - Includes a "Add New" button to toggle the view of the form. When visible, the form can simply display above list of posts.
 
-3. Has a form to filter the list of posts. Can filter by:
+3) Has a form to filter the list of posts. Can filter by:
 
    - Keyword (text)
    - Categories (select)
    - Note: Filtering does not need to post to the server. This can just be implemented on the front-end
 
-4. Includes basic styling for post list and forms.
+4) Includes basic styling for post list and forms.
 
 ## Bonus
 
