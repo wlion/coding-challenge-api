@@ -41,7 +41,7 @@
 - The project is set up to use React with plain JavaScript.
 - You may import any other libraries you may find helpful to complete the project.
 - You may make any modifications to the files and/or directories as you see fit to match your preferences.
-- You may write styles plain css in the default `styles.css` or with whatever CSS preprocesser or JS-in-CSS solution you are comfortable with (this project supports CSS and SCSS out-of-the-box).
+- You may write styles in plain CSS in the default `styles.css` or with whatever CSS preprocesser or JS-in-CSS solution you are comfortable with.
 - No need to include tests or to use any specialized tooling like Typescript or other static type checkers, but you may do so if you like.
 
 ## API
