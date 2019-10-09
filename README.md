@@ -4,12 +4,11 @@
 
 1. Consumes and displays a list of posts from the API. Content Should include
 
-   1. Title
-   2. Content
-   3. Categories
-   4. Author (Avatar, Name)
-   5. Date
-   6. Comments (optional)
+   - Title
+   - Content
+   - Categories
+   - uthor (Avatar, Name)
+   - Date
 
 2. Has a form to create a post.
 
@@ -25,32 +24,38 @@
 
 4. Includes basic styling for post list and forms
 
+## Bonus
+
+1. Display a thread of comments (no nesting) for the posts
+2. Include comments form to add a comment to a post
+
 ## Guidelines
 
 - The API is a mock server that serves data from a static json file. Therefore data from the API is not persisted across subsequent requests.
 - The project is set up to use React with plain JavaScript.
 - You may import any other libraries you may find helpful to complete the project.
-- There is no need to use any specialized tooling like Typescript or other static type checkers, but you may do so if you like.
 - You may make any modifications to the files and/or directories as you see fit to match your preferences.
 - You may write styles plain css in the default `styles.css` or with whatever CSS preprocesser or JS-in-CSS solution you are comfortable with (this project supports CSS and SCSS out-of-the-box).
+- No need to include tests or to use any specialized tooling like Typescript or other static type checkers, but you may do so if you like.
 
 ## API
 
 ### Base
 
-https://my-json-server.typicode.com/wlion/mock-json-server/
+[https://my-json-server.typicode.com/wlion/mock-json-server/](https://my-json-server.typicode.com/wlion/mock-json-server/)
 
 ### Endpoints:
 
-| Resource   | Endpoint      | Methods | body   | response.data |
-| ---------- | ------------- | ------- | ------ | ------------- |
-| Posts      | `/posts`      | GET     | N/A    | Array         |
-| Posts      | `/posts`      | POST    | Object | Object        |
-| Categories | `/categories` | GET     | N/A    | Array         |
-| Comments   | `/comments`   | GET     | N/A    | Array         |
-| Authors    | `/authors`    | GET     | N/A    | Array         |
+| Resource   | Endpoint      | Method | body   | response.data |
+| ---------- | ------------- | ------ | ------ | ------------- |
+| Posts      | `/posts`      | `GET`  | N/A    | Array         |
+| Posts      | `/posts`      | `POST` | Object | Object        |
+| Categories | `/categories` | `GET`  | N/A    | Array         |
+| Comments   | `/comments`   | `GET`  | N/A    | Array         |
+| Comments   | `/comments`   | `POST` | Object | Object        |
+| Authors    | `/authors`    | `GET`  | N/A    | Array         |
 
-#### Example request using `axios`:
+_Example request using `axios`:_
 
 ```javascript
 axios
