@@ -2,7 +2,7 @@
 
 ## Requirements
 
-1. Consumes and displays a list of posts from the API. Content Should include
+1. Consumes and displays a list of posts from the API. Content should include:
 
    - Title
    - Content
@@ -12,22 +12,28 @@
 
 2. Has a form to create a post.
 
+   - Fields should include:
+     - Title (text)
+     - Content (textarea)
+     - Categories (multi-select)
+     - Author (select)
+     - Date (hidden/disabled - auto-populate based on current date)
    - Includes a "Create Post" button to toggle the view of the form
    - Upon submit, form should send a `POST` request to the server and update the view with the new post data on success.
    - Form can simply display above list of posts.
 
 3. Has a form to filter the list of posts. Can filter by:
 
-   - Keyword (text field)
-   - Categories (select field)
+   - Keyword (text)
+   - Categories (select)
    - Note: Filtering does not need to post to the server. This can just be implemented on the front-end
 
-4. Includes basic styling for post list and forms
+4. Includes basic styling for post list and forms.
 
 ## Bonus
 
-1. Display a thread of comments (no nesting) for the posts
-2. Include comments form to add a comment to a post
+1. Display a thread of comments (no nesting) for the posts.
+2. Include comments form to add a comment to a post.
 
 ## Guidelines
 
