@@ -3,52 +3,52 @@
     {
       "id": 1,
       "title": "Post 3",
-      "content": "Lorem ipsum",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus. Id porta nibh venenatis cras sed.</p><p>Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Rhoncus mattis rhoncus urna neque viverra justo nec. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Placerat duis ultricies lacus sed. Bibendum at varius vel pharetra vel turpis.</p><p>Interdum consectetur libero id faucibus. Turpis massa sed elementum tempus egestas sed. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Sit amet justo donec enim diam.</p><p>Nulla porttitor massa id neque aliquam vestibulum morbi. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis lectus magna fringilla urna.</p>",
       "image": "http://via.placeholder.com/800x500",
       "date": "Aug 11 2019",
       "categories": [1, 5],
       "comments": [1, 2],
-      "author": 1
+      "authorId": 1
     },
     {
       "id": 2,
       "title": "Post 2",
-      "content": "Lorem ipsum",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus. Id porta nibh venenatis cras sed.</p><p>Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Rhoncus mattis rhoncus urna neque viverra justo nec. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Placerat duis ultricies lacus sed. Bibendum at varius vel pharetra vel turpis.</p><p>Interdum consectetur libero id faucibus. Turpis massa sed elementum tempus egestas sed. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Sit amet justo donec enim diam.</p><p>Nulla porttitor massa id neque aliquam vestibulum morbi. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis lectus magna fringilla urna.</p>",
       "image": "http://via.placeholder.com/800x500",
       "date": "Aug 11 2019",
       "categories": [2, 4],
       "comments": [3, 4],
-      "author": 2
+      "authorId": 2
     },
     {
       "id": 3,
       "title": "Post 3",
-      "content": "Lorem ipsum",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus. Id porta nibh venenatis cras sed.</p><p>Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Rhoncus mattis rhoncus urna neque viverra justo nec. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Placerat duis ultricies lacus sed. Bibendum at varius vel pharetra vel turpis.</p><p>Interdum consectetur libero id faucibus. Turpis massa sed elementum tempus egestas sed. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Sit amet justo donec enim diam.</p><p>Nulla porttitor massa id neque aliquam vestibulum morbi. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis lectus magna fringilla urna.</p>",
       "image": "http://via.placeholder.com/800x500",
       "date": "Aug 11 2019",
       "categories": [3],
       "comments": [],
-      "author": 3
+      "authorId": 3
     },
     {
       "id": 4,
       "title": "Post 4",
-      "content": "Lorem ipsum",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus. Id porta nibh venenatis cras sed.</p><p>Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Rhoncus mattis rhoncus urna neque viverra justo nec. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Placerat duis ultricies lacus sed. Bibendum at varius vel pharetra vel turpis.</p><p>Interdum consectetur libero id faucibus. Turpis massa sed elementum tempus egestas sed. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Sit amet justo donec enim diam.</p><p>Nulla porttitor massa id neque aliquam vestibulum morbi. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis lectus magna fringilla urna.</p>",
       "image": "http://via.placeholder.com/800x500",
       "date": "Aug 11 2019",
       "categories": [3],
       "comments": [5],
-      "author": 3
+      "authorId": 2
     },
     {
       "id": 5,
       "title": "Post 5",
-      "content": "Lorem ipsum",
+      "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus. Id porta nibh venenatis cras sed.</p><p>Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Rhoncus mattis rhoncus urna neque viverra justo nec. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Placerat duis ultricies lacus sed. Bibendum at varius vel pharetra vel turpis.</p><p>Interdum consectetur libero id faucibus. Turpis massa sed elementum tempus egestas sed. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Sit amet justo donec enim diam.</p><p>Nulla porttitor massa id neque aliquam vestibulum morbi. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis lectus magna fringilla urna.</p>",
       "image": "http://via.placeholder.com/800x500",
       "date": "Aug 11 2019",
       "categories": [3],
       "comments": [6],
-      "author": 3
+      "authorId": 1
     }
   ],
   "categories": [
@@ -80,54 +80,54 @@
   "comments": [
     {
       "id": 1,
-      "name": "John Doe",
+      "name": "Edgar Harris",
       "title": "Comment 1",
-      "content": "Lorem ipsum",
-      "post_id": 1
+      "content": "Neque egestas congue quisque egestas diam in. Leo duis ut diam quam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. Facilisis mauris sit amet massa vitae. Volutpat consequat mauris nunc congue nisi. At augue eget arcu dictum varius duis at. ",
+      "postId": 1
     },
     {
       "id": 2,
-      "name": "John Doe",
+      "name": "Steven Espinoza",
       "title": "Comment 2",
-      "content": "Lorem ipsum",
-      "post_id": 1
+      "content": "Neque egestas congue quisque egestas diam in. Leo duis ut diam quam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. Facilisis mauris sit amet massa vitae. Volutpat consequat mauris nunc congue nisi. At augue eget arcu dictum varius duis at. ",
+      "postId": 1
     },
     {
       "id": 3,
-      "name": "John Doe",
+      "name": "Florence Griffiths",
       "title": "Comment 3",
-      "content": "Lorem ipsum",
-      "post_id": 2
+      "content": "Neque egestas congue quisque egestas diam in. Leo duis ut diam quam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. Facilisis mauris sit amet massa vitae. Volutpat consequat mauris nunc congue nisi. At augue eget arcu dictum varius duis at. ",
+      "postId": 2
     },
     {
       "id": 4,
-      "name": "John Doe",
+      "name": "Mary Lee",
       "title": "Comment 4",
-      "content": "Lorem ipsum",
-      "post_id": 2
+      "content": "Neque egestas congue quisque egestas diam in. Leo duis ut diam quam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. Facilisis mauris sit amet massa vitae. Volutpat consequat mauris nunc congue nisi. At augue eget arcu dictum varius duis at. ",
+      "postId": 2
     },
     {
       "id": 5,
-      "name": "John Doe",
+      "name": "Julie Kraus",
       "title": "Comment 5",
-      "content": "Lorem ipsum",
-      "post_id": 1
+      "content": "Neque egestas congue quisque egestas diam in. Leo duis ut diam quam nulla. Consequat nisl vel pretium lectus quam id leo in vitae. Facilisis mauris sit amet massa vitae. Volutpat consequat mauris nunc congue nisi. At augue eget arcu dictum varius duis at. ",
+      "postId": 1
     }
   ],
   "authors": [
     {
       "id": 1,
-      "name": "Author 1",
+      "name": "Gordon Melton",
       "avatar": "http://via.placeholder.com/100x100"
     },
     {
       "id": 2,
-      "name": "Author 2",
+      "name": "Catherine Francisco",
       "avatar": "http://via.placeholder.com/100x100"
     },
     {
       "id": 3,
-      "name": "Author 3",
+      "name": "Allison Donley",
       "avatar": "http://via.placeholder.com/100x100"
     }
   ]
