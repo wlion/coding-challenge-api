@@ -7,7 +7,7 @@
    - Title
    - Content
    - Categories
-   - uthor (Avatar, Name)
+   - Author (Avatar, Name)
    - Date
 
 2. Has a form to create a post.
@@ -32,8 +32,9 @@
 
 ## Bonus
 
-1. Display a thread of comments (no nesting) for the posts.
-2. Include comments form to add a comment to a post.
+1. Include simple form validation.
+2. Display a thread of comments (no nesting) for the posts.
+3. Include comments form to add a comment to a post.
 
 ## Guidelines
 
@@ -46,9 +47,9 @@
 
 ## API
 
-### Base
+### Base URL
 
-[https://my-json-server.typicode.com/wlion/mock-json-server/](https://my-json-server.typicode.com/wlion/mock-json-server/)
+[https://my-json-server.typicode.com/wlion/coding-challenge-api/](https://my-json-server.typicode.com/wlion/coding-challenge-api/)
 
 ### Endpoints:
 
@@ -65,14 +66,17 @@ _Example request using `axios`:_
 
 ```javascript
 axios
-  .post('https://my-json-server.typicode.com/wlion/mock-json-server/posts', {
-    title: 'New Post',
-    content: '<p>This is the post content.</p>',
-    image: 'http://via.placeholder.com/800x500',
-    date: 'Oct 08 2019',
-    categories: [1, 2],
-    authorId: 3
-  })
+  .post(
+    'https://my-json-server.typicode.com/wlion/coding-challenge-api/posts',
+    {
+      title: 'New Post',
+      content: '<p>This is the post content.</p>',
+      image: 'http://via.placeholder.com/800x500',
+      date: 'Oct 08 2019',
+      categories: [1, 2],
+      authorId: 3
+    }
+  )
   .then(response => {
     console.log(response.data);
   })
