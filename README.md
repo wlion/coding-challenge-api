@@ -19,7 +19,7 @@
      - Author (select)
      - Date (hidden/disabled - auto-populate based on current date)
    - Upon submit, form should send a `POST` request to the server. On success, form should hide and the new post should be added to the list of posts.
-   - Includes a "Add New" and "Cancel" buttons to toggle the view of the form. When visible, the form can simply display above list of posts.
+   - Includes an "Add New" and "Cancel" buttons to toggle the view of the form. When visible, the form can simply display above list of posts.
 
 3) Has a form to filter the list of posts. Can filter by:
 
