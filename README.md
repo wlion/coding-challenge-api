@@ -10,7 +10,7 @@
 
 4. Ensure that you are logged into your account while working on the coding challenge to ensure that your work is auto-saved. If you want to manually save your work, your may press <kbd>CMD</kbd> + <kbd>S</kbd> at any time.
 
-5. To ensure no work is lost, we advise you to keep a local backup of your work. You may do this by going to clicking "Export to Zip" under the "File" menu within CodeSandbox.
+5. To ensure no work is lost, we advise you to keep a local backup of your work. You may do this by clicking "Export to Zip" under the "File" menu within CodeSandbox.
 
 ## Requirements
 
