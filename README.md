@@ -1,5 +1,12 @@
 # Front-End Coding Challenge
 
+## Setup
+
+1. Create an account on [CodeSandbox](https://codesandbox.io/)
+2. Fork the following project and save it in your account: [White Lion - Candidate Take Home Project](https://codesandbox.io/s/white-lion-candidate-take-home-project-3e1ri)
+3. Change the name of your project to "White Lion - Candidate Take Home Project - YOUR FULL NAME".
+4. Ensure that you are logged into your account while working on the coding challenge to ensure that your work is auto-saved. If you want to manually save your work, your may press <kbd>CMND</kbd> + <kbd>S</kbd> at any time.
+
 ## Requirements
 
 1. Consumes and displays a list of posts from the API. Content should include:
