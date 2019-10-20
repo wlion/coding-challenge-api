@@ -8,7 +8,7 @@
 
 3. Change the name of your project to "White Lion - Candidate Take Home Project - YOUR FULL NAME".
 
-4. Ensure that you are logged into your account while working on the coding challenge to ensure that your work is auto-saved. If you want to manually save your work, your may press <kbd>CMND</kbd> + <kbd>S</kbd> at any time.
+4. Ensure that you are logged into your account while working on the coding challenge to ensure that your work is auto-saved. If you want to manually save your work, your may press <kbd>CMD</kbd> + <kbd>S</kbd> at any time.
 
 ## Requirements
 
