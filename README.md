@@ -2,9 +2,9 @@
 
 ## Setup
 
-1. Create an account on [CodeSandbox](https://codesandbox.io/)
+1. Create an account on [CodeSandbox](https://codesandbox.io/).
 
-2. Fork the following project and save it in your account: [White Lion - Candidate Take Home Project](https://codesandbox.io/s/white-lion-candidate-take-home-project-3e1ri)
+2. Fork the following project and save it in your account: [White Lion - Candidate Take Home Project](https://codesandbox.io/s/white-lion-candidate-take-home-project-3e1ri).
 
 3. Change the name of your project to "White Lion - Candidate Take Home Project - YOUR FULL NAME".
 
