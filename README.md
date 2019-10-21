@@ -33,13 +33,13 @@
    - Upon submit, form should send a `POST` request to the server. On success, form should hide and the new post should be added to the list of posts.
    - Includes "Add New" and "Cancel" buttons to toggle the view of the form. When visible, the form can simply display above list of posts.
 
-3) Has a form to filter the list of posts. Can filter by:
+3. Has a form to filter the list of posts. Can filter by:
 
    - Keyword (text)
    - Categories (select)
    - Note: Filtering does not need to post to the server. This can just be implemented on the front-end
 
-4) Includes basic styling for post list and forms.
+4. Includes basic styling for post list and forms.
 
 ## Bonus
 
